@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SALS RRB Courses</title>
+
+  <!-- font awsome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+  <link rel="stylesheet" href="ug.css">
+
+  <!-- styling css -->
+  <link rel="stylesheet" href="ug.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Script js -->
+  <script src="script.js"></script>
+
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <nav>
+    <div class="wrapper">
+      <img src="image/SALS.jpeg" alt="" heigh="80" width="80">
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="coursepage.html" class="desktop-item">Courses</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="image/Untitled-design-2-1024x1024.png" alt="">
+              </div>
+              <div class="row">
+                <header href="undergraduate.html">Under Graduate (UG)</header>
+                <ul class="mega-links">
+                  <li><a href="undergraduate.html" target="_blank">NEET</a></li>
+                  <li><a href="undergraduate.html" target="_blank">JEE</a></li>
+                  <li><a href="undergraduate.html" target="_blank">NDA</a></li>
+                  <li><a href="undergraduate.html" target="_blank">ICAR</a></li>
+                  <li><a href="undergraduate.html" target="_blank">CLAT</a></li>
+                  <li><a href="undergraduate.html" target="_blank">IMU CET</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>TNPSC</header>
+                <ul class="mega-links">
+                  <li><a href="TNPSC.html" target="_blank">GROUP-I</a></li>
+                  <li><a href="TNPSC.html" target="_blank">GROUP-II</a></li>
+                  <li><a href="TNPSC.html" target="_blank">GROUP-II A</a></li>
+                  <li><a href="TNPSC.html" target="_blank">GROUP-IV</a></li>
+                  <li><a href="TNPSC.html" target="_blank">GROUP-VAO</a></li>
+                  <li><a href="TNPSC.html" target="_blank">JE</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>UPSC</header>
+                <ul class="mega-links">
+                  <li><a href="UPSC.html" target="_blank">IAS</a></li>
+                  <li><a href="UPSC.html" target="_blank">IPS</a></li>
+                  <li><a href="UPSC.html" target="_blank">IFS</a></li>
+                  <li><header>RRB</header></li>
+                  <li><a href="RRB.html" target="_blank">NTPC</a></li>
+                  <li><a href="RRB.html" target="_blank">RGDE</a></li>
+                </ul>
+              </div>
+              <div class="row">
+              <header>Banking Exams</header>
+                <ul class="mega-links">
+                  <li><a href="Bankingexam.html" target="_blank">PO</a></li>
+                  <li><a href="Bankingexam.html" target="_blank">SO</a></li>
+                  <li><a href="Bankingexam.html" target="_blank">AE</a></li>
+                  <li><a href="Bankingexam.html" target="_blank">SBI</a></li>
+                  <li><a href="Bankingexam.html" target="_blank">IBPS</a></li>
+                  <li><a href="Bankingexam.html" target="_blank">Clerk</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Post Graduate (PG)</header>
+                <ul class="mega-links">
+                  <li><a href="PG.html" target="_blank">CAT</a></li>
+                  <li><a href="PG.html" target="_blank">GATE</a></li>
+                  <li><header>SSC-Exams</header></li>
+                  <li><a href="SSC.html" target="_blank">CGL</a></li>
+                  <li><a href="SSC.html" target="_blank">CHSL</a></li>
+                  <li><a href="SSC.html" target="_blank">MTS</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Teams</a></li>
+        <li>
+          <a href="#" class="desktop-item">More</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+          <ul class="drop-menu">
+            <li><a href="#">Drop menu 1</a></li>
+            <li><a href="#">Drop menu 2</a></li>
+            <li><a href="#">Drop menu 3</a></li>
+            <li><a href="#">Drop menu 4</a></li>
+          </ul>
+        </li>
+        <li><a  class="act" href="#">Login</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>   
+<div class="course-container">
+  <h1>WELCOME TO OUR RRB COURSES </h1>
+  <div class="course1">
+    <div class="crs1">
+         <img src="image/NTPCIMG.jpg">
+        
+         <div class="box02">
+             <div class="name-of-course">NTPC</div>
+             <div class="price-of-course">$20000</div>
+             <div class="availability">6 month availability</div>
+             <div class="btn-wrap"><a href="#" class="enroll-btn">Enroll now</a></div>
+         </div>
+         <div class="box">
+          <div class="heading">NTPC</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+    
+      </div>
+  </div>
+  <div class="course1">
+    <div class="crs1">
+         <img src="image/GDEIMG.jpg">
+        
+         <div class="box02">
+             <div class="name-of-course">RGDE</div>
+             <div class="price-of-course">$20000</div>
+             <div class="availability">6 month availability</div>
+             <div class="btn-wrap"><a href="#" class="enroll-btn">Enroll now</a></div>
+         </div>
+         <div class="box">
+          <div class="heading">RGDE</div>
+          <div class="amt">
+            <p>RS.2000</p>
+          </div>
+          <p>Limited time offer</p>
+          <hr>
+          <ul>
+            <li>Access to 25 courses</li>
+            <li>Course Discussions</li>
+            <li>offline viewing</li>
+            <li>Certificate after completion</li>
+            <li>Private sessions</li>
+          </ul>
+          </div>
+    
+      </div>
+  </div>
+</div>
+<br> <br> <br> <br> <br> <br>
+<section class="neettxt">
+
+    <h1 class="main-heading">Unlock Your Medical Dream with Our Comprehensive NEET Online Course</h1>
+
+    <h2 class="sub-heading">Course Overview:</h2>
+    <p class="paragraph">Our NEET online course is meticulously designed by a team of esteemed educators and
+        medical professionals to provide a holistic and in-depth preparation experience for aspiring medical
+        students. This course is tailored to empower you with the knowledge, strategies, and confidence
+        required to excel in NEET and secure a seat in your desired medical institution.</p>
+
+    <h2 class="sub-heading">Why Choose Our NEET Online Course?</h2>
+    <ul class="list">
+        <li class="list-item"><strong>Expert Faculty:</strong> Learn from a panel of experienced teachers
+            and NEET experts who bring clarity to even the most challenging concepts.</li>
+        <li class="list-item"><strong>Comprehensive Curriculum:</strong> Our course covers all topics in
+            Physics, Chemistry, and Biology as per the latest NEET syllabus, ensuring no stone is left
+            unturned.</li>
+        <li class="list-item"><strong>Flexible Learning:</strong> Study at your own pace with our 24/7
+            accessible online platform, equipped with interactive lessons, detailed video lectures, and live
+            doubt-clearing sessions.</li>
+        <li class="list-item"><strong>High-Quality Study Materials:</strong> Get access to meticulously
+            crafted study notes, practice questions, and NEET pattern mock tests to bolster your
+            preparation.</li>
+        <li class="list-item"><strong>Performance Tracking:</strong> Regular assessments and personalized
+            feedback to help you identify your strengths and focus on areas of improvement.</li>
+        <li class="list-item"><strong>Community Support:</strong> Join a community of fellow NEET aspirants
+            to exchange ideas, solve doubts, and stay motivated.</li>
+    </ul>
+
+    <h2 class="sub-heading">Course Features:</h2>
+    <ul class="list">
+        <li class="list-item"><strong>Video Lectures:</strong> Engaging and concept-oriented video lectures
+            covering all topics in Physics, Chemistry, and Biology.</li>
+        <li class="list-item"><strong>Live Sessions:</strong> Regular live classes for doubt clearing,
+            strategy sessions, and revision classes.</li>
+        <li class="list-item"><strong>Test Series:</strong> Comprehensive test series simulating the real
+            NEET exam environment, with detailed analysis and feedback.</li>
+        <li class="list-item"><strong>Personal Mentorship:</strong> Dedicated mentors available for
+            one-on-one guidance, study planning, and motivational support.</li>
+        <li class="list-item"><strong>Resource Library:</strong> An extensive library of eBooks, previous
+            year question papers, and sample questions for extensive practice.</li>
+        <li class="list-item"><strong>24/7 Accessibility:</strong> Learn anytime, anywhere with our
+            mobile-friendly platform and downloadable content for offline study.</li>
+    </ul>
+
+    <p class="paragraph">Enroll Now and Start Your Journey to Becoming a Doctor: <a href="#"
+            class="enroll-link">Enroll today</a> and take the first step towards achieving your medical
+        dreams with confidence and competence.</p>
+</section>
+
+<!--footer-->
+<footer class="new_footer_area bg_color">
+  <div class="new_footer_top">
+      <img src="image/SALS-removebg-preview.png" alt="">
+  
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                      <p>Don’t miss any updates of our new Courses and Classes.!</p>
+                      <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                          <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                          <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                          <p class="mchimp-errmessage" style="display: none;"></p>
+                          <p class="mchimp-sucmessage" style="display: none;"></p>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Product</h3>
+                      <ul class="list-unstyled f_list">
+                          <li><a href="#">Overview</a></li>
+                          <li><a href="#">Features</a></li>
+                          <li><a href="#">Solutions</a></li>
+                          <li><a href="#">Tutorials</a></li>
+                          <li><a href="#">Pricing</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Useful links</h3>
+                      <ul class="list-unstyled f_list">
+                          <li><a href="#">About us</a></li>
+                          <li><a href="#">Term &amp; conditions</a></li>
+                          <li><a href="#">Your Account</a></li>
+                          <li><a href="#">Become An Affiliate</a></li>
+                          <li><a href="#">Shipping Rates</a></li>
+                          <li><a href="#">Help</a></li>
+                      </ul>
+                  </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                      <div class="f_social_icon">
+                          <a href="#" class="fab fa-facebook"></a>
+                          <a href="#" class="fab fa-twitter"></a>
+                          <a href="#" class="fab fa-linkedin"></a>
+                          <a href="#" class="fab fa-pinterest"></a>
+                          
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer_bg">
+          <div class="footer_bg_one"></div>
+          <div class="footer_bg_two"></div>
+              <h6 class="text-uppercase fw-bold mb-4">Location</h6>
+              <!-- Embed Google Map -->
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.5439008719104!2d80.1480461740978!3d13.064678287259293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526170f2955555%3A0xb10196b8e59648a3!2sSALS%20Educational%20Academy!5e0!3m2!1sen!2sus!4v1712386819651!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+      </div>
+  </div>
+  <div class="footer_bottom">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-7">
+                  <p class="mb-0 f_400">© salseducation Academy.. 2024 All rights reserved.</p>
+              </div>
+              <div class="col-lg-6 col-sm-5 text-right">
+                  <p>Made with <i class="icon_heart"></i> in <a href="#" target="_blank">sathi&team</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- End of .container -->
+
+</body>
+</html>
